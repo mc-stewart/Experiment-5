@@ -7,6 +7,9 @@ December 4, 2020
 
 Based on code from Creation & Computation 'SendReceiveTemps'
 https://github.com/DigitalFuturesOCADU/CC2020/tree/main/Experiment5
+
+and 'six-axis-comp-filter'
+https://github.com/DigitalFuturesOCADU/CC2020/tree/main/Experiment3
 **/
 
 #include <WiFiNINA.h>
@@ -19,7 +22,6 @@ https://github.com/DigitalFuturesOCADU/CC2020/tree/main/Experiment5
 #include <Servo.h>
 
 float pitch;
-//float roll;
 float level;
 
 int pos = 0;
